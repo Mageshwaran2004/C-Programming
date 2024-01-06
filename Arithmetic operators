@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("\nEnter 2 numbers: ");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("\nSum of two numbers is: %d",c);
+    c=a-b;
+    printf("\nDifference of two numbers is: %d",c);
+    c=a*b;
+    printf("\nProduct of two numbers is: %d",c);
+    c=a/b;
+    printf("\nDivision of two numbers is: %d",c);
+    c=a%b;
+    printf("\nModulus of two numbers is: %d",c);
+    return 0;
+}
