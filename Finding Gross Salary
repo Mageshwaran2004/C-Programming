@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  float bs,da,hra,gs;
+  printf("\nEnter the amount of basic salary: ");
+  scanf("%f",&bs);
+  da=bs*0.4;
+  hra=bs*0.2;
+  gs=bs+da+hra;
+   printf("\nBasic Salary : %f",bs);
+  printf("\nDear Allowance : %f",da);
+  printf("\nHouse Allowance : %f",hra);
+  printf("\nGross Salary : %f",gs);
+  return 0;
+}
