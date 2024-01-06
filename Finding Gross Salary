@@ -7,9 +7,9 @@ int main()
   da=bs*0.4;
   hra=bs*0.2;
   gs=bs+da+hra;
-   printf("\nBasic Salary : %f",bs);
-  printf("\nDear Allowance : %f",da);
-  printf("\nHouse Allowance : %f",hra);
-  printf("\nGross Salary : %f",gs);
+   printf("\nBasic Salary : %0.2f",bs);
+  printf("\nDear Allowance : %0.2f",da);
+  printf("\nHouse Allowance : %0.2f",hra);
+  printf("\nGross Salary : %0.2f",gs);
   return 0;
 }
