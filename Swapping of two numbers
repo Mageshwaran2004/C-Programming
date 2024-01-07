@@ -13,3 +13,8 @@ int main()
     return 0;
 
 }
+we can interchange the values of two numbers without using the third variable;
+consider the same c and d as input; //c=5 d=10
+c=c+d; //15
+d=c-d; //5
+c=c-d; //10
