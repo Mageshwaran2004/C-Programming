@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+
+    int b,c,d;
+    printf("\nEnter 2 Numbers: ");
+    scanf("%d%d",&c,&d);
+    printf("\n C:%d \n D:%d ",c,d);
+    b=c;
+    c=d;
+    d=b;
+    printf("\n Interchanged values of C:%d \n Interchanged values of D:%d",c,d);
+    return 0;
+
+}
