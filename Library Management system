@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int days;
+    printf("\nNo.of.days taken to return the book: ");
+    scanf("%d",&days);
+    if(days>=1&&days<=5)
+    {
+        printf("\nyour fine amount is 50 paise");
+    }
+        else if(days>=6&&days<=10)
+        {
+            printf("\nyour fine amount is 1 ruppes");
+        }
+        else if(days>=11&&days<=29)
+        {
+            printf("\nyour fine amount is 5 ruppes");
+        }
+    else
+    {
+        printf("\nyour membership is canceled");
+    }
+    return 0;
+}
