@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char c[20], a[20];
+    char x[10]= {'R', 'A', 'M', '\0'};
+    char y[10]= {'K', 'U', 'M', 'A', 'R','\0'};
+    printf("x:%s",x);
+
+    printf("\nEnter the string:");
+    gets(c);
+    printf("\nCompare: %d", strcmp(x,c));
+    printf("\nLength : %d",strlen(c));
+    printf("\nCopy: %s",strcpy(a,c));
+    printf("\nUpper case: %s",strupr(c));
+    printf("\nLower case: %s",strlwr(c));
+    printf("\nReverse : %s",strrev(c));
+    printf("\nConcatenation :%s",strcat(x,y));
+
+
+    return 0;
+}
