@@ -1,0 +1,18 @@
+#include<stdio.h>
+//Function Declaration
+void add(int,int);
+int main ()
+{
+    //Function Calling
+    add(50,50); // actual parameter
+    return 0;
+}
+void add(int a,int b) //formal paramter
+//Function Definition
+{
+    int c;
+    c=a+b;
+    printf("\nSum of two numbers is:%d",c);
+
+}
+
