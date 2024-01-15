@@ -1,0 +1,19 @@
+#include<stdio.h>
+//Function Declaration
+int add();
+int main()
+{
+    // Function Calling
+    int a;
+    a=add();
+    printf("\nTotal: %d",a);
+    return 0;
+}
+int add()
+//Function Definition
+{
+    int a,b;
+    printf("\nEnter 2 Numbers:");
+    scanf("%d%d",&a,&b);
+    return a+b;
+}
